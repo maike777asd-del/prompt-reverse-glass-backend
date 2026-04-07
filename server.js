@@ -5,7 +5,7 @@ const { URL } = require("url");
 dns.setDefaultResultOrder("ipv4first");
 
 const PORT = Number(process.env.PORT || 8787);
-const HOST = process.env.HOST || "127.0.0.1";
+const HOST = process.env.HOST || "0.0.0.0";
 const ZHIPU_API_BASE = process.env.ZHIPU_API_BASE || "https://open.bigmodel.cn/api/paas/v4";
 const DEFAULT_MODEL = process.env.ZHIPU_MODEL || "glm-4.5v";
 
