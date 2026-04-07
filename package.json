@@ -1,0 +1,13 @@
+{
+  "name": "prompt-reverse-glass-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Zhipu AI backend for Prompt Reverse Glass",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
